@@ -20,6 +20,15 @@ public class Employee extends Personne{
 	public void setPoste(String poste) {
 		this.poste = poste;
 	}
+	public Employee(double salaire, String poste) {
+		super();
+		this.salaire = salaire;
+		this.poste = poste;
+	}
+	public Employee() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	
 
 }
